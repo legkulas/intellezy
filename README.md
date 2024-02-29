@@ -13,7 +13,7 @@
 * php artisan serve
 
 ### Assignment
-* Replicate this page: https://www.intellezy.com/blog
+* Replicate this page: https://www.intellezy.com/blog using Tailwind CSS
   * Include header and footer
 * Use the branding guide: https://www.intellezy.com/branding
 * Share the project on GitHub
