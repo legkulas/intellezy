@@ -1,4 +1,5 @@
 <div>
+    <div class="text-2xl" >Blog</div>
 @foreach($posts as $post)
     {{$post->title}}<br>
     {{$post->content}}<br>
