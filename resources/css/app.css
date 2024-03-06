@@ -1,3 +1,106 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-color: #95b441;
+    --secondary-color: #676767;
+    --font-size: 16px;
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+    --purple-color: #3D3246;
+    --blue-color: #1272EA;
+}
+
+.primary-font {
+    font-family: var(--primary-font);
+}
+
+.secondary-font {
+    font-family: var(--secondary-font);
+}
+
+.purple-color {
+    color: var(--purple-color);
+}
+
+.blue-color {
+    color: var(--blue-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--font-size);
+    color: var(--secondary-color);
+
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding: 0;
+    margin: 0;
+}
+
+body * {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+a {
+    font-family: var(--secondary-font);
+}
+
+
+.menu-item:hover > a {
+    opacity: 0.3;
+}
+.menu-item:hover > div {
+    display: none;
+}
+
+.menu.open {
+    display: block;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+
+@media (min-width: 1024px) {
+    .article-blog {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+}
+
+@media (min-width: 960px) {
+    .article-blog {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media (min-width: 768px) {
+    .article-blog {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+
+@media (min-width: 640px) {
+    .article-blog {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
