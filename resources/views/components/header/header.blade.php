@@ -274,7 +274,7 @@
 
     </nav>
 
-    <div class="relative bg-center bg-no-repeat bg-fixed bg-parallax bg-cover h-40 sm:h-40 md:h-64 lg:h-80 xl:h-80">
+    <div class="relative bg-center bg-no-repeat bg-fixed bg-parallax bg-cover h-40 sm:h-40 md:h-64 lg:h-96 xl:h-[400px]">
         <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
         <div class="relative flex items-center justify-center h-full text-center">
             <h1 class="relative text-4xl font-extrabold tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:-bottom-8 lg:-bottom-8 xl:-bottom-8">Blog</h1>

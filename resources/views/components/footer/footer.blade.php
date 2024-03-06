@@ -1,5 +1,5 @@
-<footer>
-    <div class="box-border p-16 bg-[#383838] text-white block w-full max-w-[1600px] ml-auto mr-auto md:p-8 lg:px-[77px] lg:py-[100px] xl:px-[77px] xl:py-[100px]">
+<footer class="bg-[#383838]">
+    <div class="box-border text-white block w-full max-w-[1600px] ml-auto mr-auto p-8 md:p-8 lg:px-[77px] lg:py-[100px] xl:px-[77px] xl:py-[100px]">
 
         <div class="flex flex-col pb-10 sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-4">
             <div>
@@ -47,7 +47,7 @@
                 </ul>
             </div>
 
-            <div class="flex grow justify-between flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row sm:gap-9 md:gap-20 lg:gap-28 xl:gap-40">
+            <div class="flex grow justify-between flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row sm:gap-7 md:gap-20 lg:gap-28 xl:gap-40">
 
                 <div class="flex-none">
                     <ul>
@@ -66,7 +66,7 @@
 
                 <div>
                     <h3 class="font-bold text-2xl my-7 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0  text-[#95b441]">Let's Talks</h3>
-                    <h3 class="mt-0 font-bold text-2xl mb-7 text-white">
+                    <h3 class="mt-0 font-bold text-2xl sm:text-xl mb-7 text-white">
                         <a href="mailto:" target="_blank" class="hover:text-white/30 transition-all duration-200">info@intellezy.com</a><br/>
                         <a href="tel:" target="_blank" class="-pb-1 border-b-[.5px] border-solid border-white/30 hover:border-white/10 hover:text-white/30 transition-all duration-200">781.244.1113</a>
                     </h3>

@@ -1,7 +1,7 @@
-<section class="article-blog block pt-20 lg:py-28 lg:px-24 xl:py-28 xl:px-24 w-full max-w-[1600px] ml-auto mr-auto box-border">
+<section class="article-blog block pt-5 lg:py-20 lg:px-20 xl:py-20 xl:px-20 w-full max-w-[1600px] ml-auto mr-auto box-border">
     <!-- <h1 class="text-2xl">BLOG</h1> -->
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 sm:portrait:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 lg:gap-10 xl:gap-14">
+    <div class="grid grid-cols-1 sm:grid-cols-2 sm:portrait:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-14 xl:gap-16">
         @foreach($posts as $post)
             <article class="bg-white flex flex-col justify-items-center mb-10 xs:p-5">
                 <figure class="rounded-lg cursor-pointer overflow-hidden aspect-w-1 aspect-h-1 max-w-full h-72 size-full mb-10">
