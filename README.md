@@ -6,6 +6,7 @@
 * Node.js
 
 ### Setup
+* npm i
 * composer update
 * php artisan migrate
 * php artisan db:seed
