@@ -68,7 +68,7 @@
                     <h3 class="font-bold text-2xl my-7 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0  text-[#95b441]">Let's Talks</h3>
                     <h3 class="mt-0 font-bold text-2xl sm:text-xl mb-7 text-white">
                         <a href="mailto:" target="_blank" class="hover:text-white/30 transition-all duration-200">info@intellezy.com</a><br/>
-                        <a href="tel:" target="_blank" class="-pb-1 border-b-[.5px] border-solid border-white/30 hover:border-white/10 hover:text-white/30 transition-all duration-200">781.244.1113</a>
+                        <a href="tel:+17812441113" target="_blank" class="-pb-1 border-b-[.5px] border-solid border-white/30 hover:border-white/10 hover:text-white/30 transition-all duration-200">781.244.1113</a>
                     </h3>
                     <address class="text-white not-italic">
                         400 West Cummings Park, Ste. 2850 Woburn, MA 01801
