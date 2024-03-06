@@ -1,10 +1,10 @@
-<section class="article-blog block pt-10 sm:pt-20 lg:py-28 lg:px-24 xl:py-28 xl:px-24 w-full max-w-[1600px] ml-auto mr-auto box-border">
+<section class="article-blog block pt-20 lg:py-28 lg:px-24 xl:py-28 xl:px-24 w-full max-w-[1600px] ml-auto mr-auto box-border">
     <!-- <h1 class="text-2xl">BLOG</h1> -->
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 sm:portrait:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 lg:gap-10 xl:gap-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 sm:portrait:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 lg:gap-10 xl:gap-14">
         @foreach($posts as $post)
             <article class="bg-white flex flex-col justify-items-center mb-10 xs:p-5">
-                <figure class="rounded-lg cursor-pointer overflow-hidden aspect-w-1 aspect-h-1 max-w-full h-72 sm:h-[212px] md:h-[229px] lg:h-[379px] xl:h-[379px] mb-10">
+                <figure class="rounded-lg cursor-pointer overflow-hidden aspect-w-1 aspect-h-1 max-w-full h-72 size-full mb-10">
                     <img src="{{$post->image}}" alt="" class="object-cover w-full h-full">
                 </figure>
                 <a href="#" class="blog-title block text-2xl mb-5 font-bold text-[#525252] hover:text-[#95B541] transition-all duration-200">{{ $post->title }}</a>

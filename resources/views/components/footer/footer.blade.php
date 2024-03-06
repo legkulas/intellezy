@@ -1,5 +1,5 @@
 <footer>
-    <div class="box-border p-5 bg-[#383838] text-white block w-full max-w-[1600px] ml-auto mr-auto md:p-8 lg:px-[77px] lg:py-[100px] xl:px-[77px] xl:py-[100px]">
+    <div class="box-border p-16 bg-[#383838] text-white block w-full max-w-[1600px] ml-auto mr-auto md:p-8 lg:px-[77px] lg:py-[100px] xl:px-[77px] xl:py-[100px]">
 
         <div class="flex flex-col pb-10 sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-4">
             <div>
@@ -47,7 +47,7 @@
                 </ul>
             </div>
 
-            <div class="flex grow justify-between flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row sm:gap-16 md:gap-20 lg:gap-28 xl:gap-40">
+            <div class="flex grow justify-between flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row sm:gap-9 md:gap-20 lg:gap-28 xl:gap-40">
 
                 <div class="flex-none">
                     <ul>
@@ -82,7 +82,7 @@
         </div>
 
         <div>
-            <a href="mailto:info@intellezy.com" title="info@intellezy.com" target="_blank" class="p-5 lg:pl-0 xl:pl-0  block text-[#777] hover:text-[#777]/50 transition-all duration-200">info@intellezy.com</a>
+            <a href="mailto:info@intellezy.com" title="info@intellezy.com" target="_blank" class="p-5 pl-0 xs:pl-5 block text-[#777] hover:text-[#777]/50 transition-all duration-200">info@intellezy.com</a>
         </div>
 
     </div>
