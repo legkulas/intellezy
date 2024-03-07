@@ -1,11 +1,11 @@
-<footer class="bg-[#383838]">
+<footer class=" bg-doveGray-600">
     <div class="box-border text-white block w-full max-w-[1600px] ml-auto mr-auto p-8 md:p-8 lg:px-[77px] lg:py-[100px] xl:px-[77px] xl:py-[100px]">
 
         <div class="flex flex-col pb-10 sm:flex-row md:flex-row lg:flex-row xl:flex-row gap-4">
             <div>
                 <ul>
                     <li class="mb-3">
-                        <a href="#" class=" font-extrabold text-[#888] active:outline-0 focus:outline-0">
+                        <a href="#" class=" font-extrabold text-doveGray-400 active:outline-0 focus:outline-0">
                             Solutions
                         </a>
                     </li>
@@ -21,7 +21,7 @@
             <div>
                 <ul>
                     <li class="mb-3">
-                        <a href="#" class=" font-extrabold text-[#888] active:outline-0 focus:outline-0">
+                        <a href="#" class=" font-extrabold text-doveGray-400 active:outline-0 focus:outline-0">
                             Partners
                         </a>
                     </li>
@@ -34,7 +34,7 @@
             <div>
                 <ul>
                     <li class="mb-3">
-                        <a href="#" class=" font-extrabold text-[#888] active:outline-0 focus:outline-0">
+                        <a href="#" class=" font-extrabold text-doveGray-200 active:outline-0 focus:outline-0">
                             About
                         </a>
                     </li>
@@ -65,7 +65,7 @@
                 </div>
 
                 <div>
-                    <h3 class="font-bold text-2xl my-7 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0  text-[#95b441]">Let's Talks</h3>
+                    <h3 class="font-bold text-2xl my-7 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 text-intellezyGreen">Let's Talks</h3>
                     <h3 class="mt-0 font-bold text-2xl sm:text-xl mb-7 text-white">
                         <a href="mailto:info@intellezy.com" target="_blank" class="hover:text-white/30 transition-all duration-200">info@intellezy.com</a><br/>
                         <a href="tel:+17812441113" target="_blank" class="-pb-1 border-b-[.5px] border-solid border-white/30 hover:border-white/10 hover:text-white/30 transition-all duration-200">781.244.1113</a>
@@ -82,7 +82,7 @@
         </div>
 
         <div>
-            <a href="mailto:info@intellezy.com" title="info@intellezy.com" target="_blank" class="p-5 pl-0 xs:pl-5 block text-[#777] hover:text-[#777]/50 transition-all duration-200">info@intellezy.com</a>
+            <a href="mailto:info@intellezy.com" title="info@intellezy.com" target="_blank" class="p-5 pl-0 xs:pl-5 block text-doveGray hover:text-doveGray/50 transition-all duration-200">info@intellezy.com</a>
         </div>
 
     </div>
