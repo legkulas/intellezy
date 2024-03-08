@@ -286,15 +286,14 @@
     </nav>
 
     <!-- banner -->
-    <div class="overflow-hidden bg-doveGray-700">
-        <div class="relative bg-center bg-no-repeat bg-fixed bg-parallax bg-cover h-40 sm:h-40 md:h-64 lg:h-96 xl:h-[400px] transition-all ease-linear"
-             :style="`transform: translateY(${scrollPosition/12}px)`"
+    <div class="relative flex overflow-hidden h-40 sm:h-40 md:h-64 lg:h-96 xl:h-[400px] bg-doveGray-700">
+        <div class="bg-center bg-no-repeat bg-fixed bg-parallax bg-cover h-full w-full transition-all ease-linear"
+             :style="`transform: translateY(${scrollPosition/8}px)`"
         >
             <div class="absolute inset-0 bg-doveGray-800 opacity-50"></div>
-            <div class="relative flex items-center justify-center h-full text-center">
-                <h1 class="relative text-4xl font-extrabold tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:-bottom-8 lg:-bottom-8 xl:-bottom-8">Blog</h1>
-            </div>
         </div>
+        <h1 class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 text-4xl font-extrabold tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Blog</h1>
+
     </div>
 
 </header>
