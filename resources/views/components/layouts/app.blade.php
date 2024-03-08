@@ -12,7 +12,10 @@
     @vite('resources/css/app.css')
     @livewireStyles
 </head>
-<body>
+<body x-data="{ scrollPosition: window.pageYOffset, mobileMenu: false, mainMenu: true, solutions: false, about: false, partners: false, resources: false }"
+    @scroll.window="scrollPosition = window.pageYOffset"
+>
+
     @include('components.header.header')
 
     {{$slot}}
@@ -20,5 +23,6 @@
     @include('components.footer.footer')
 
     @livewireScripts
+
 </body>
 </html>

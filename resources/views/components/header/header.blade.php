@@ -5,7 +5,7 @@
         <div class="relative flex items-center justify-between h-16">
             <div class="flex-1 flex items-center justify-center">
                 <div class="flex items-center">
-                    <img class="block w-auto h-14 md:h-7 lg:h-8" src="{{ Vite::asset('resources/images/intellezy-white.png') }}" alt="Intellezy | Revolutionizing Learning">
+                    <img class="block w-full max-w-52 h-14 md:h-7 lg:h-8" src="{{ Vite::asset('resources/images/intellezy-white.png') }}" alt="Intellezy | Revolutionizing Learning">
                 </div>
                 <div class="block sm:ml-6 w-full z-50">
                     <ul class="flex justify-end space-x-4 uppercase text-sm items-center h-full">
@@ -93,7 +93,7 @@
     </nav>
 
     <!-- mobile -->
-    <nav x-data="{ mobileMenu: false, mainMenu: true, solutions: false, about: false, partners: false, resources: false }" class="flex md:hidden lg:hidden xl:hidden h-14">
+    <nav class="flex md:hidden lg:hidden xl:hidden h-14">
         <div class="flex justify-between items-center pl-3 bg-[rgba(0,0,0,.74)] fixed top-0 left-0 z-10 w-full h-14">
             <img class="block h-8 w-auto" src="{{ Vite::asset('resources/images/intellezy-white.png') }}" alt="Intellezy | Revolutionizing Learning">
             <button @click="mobileMenu = !mobileMenu"
@@ -285,10 +285,15 @@
 
     </nav>
 
-    <div class="relative bg-center bg-no-repeat bg-fixed bg-parallax bg-cover h-40 sm:h-40 md:h-64 lg:h-96 xl:h-[400px]">
-        <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
-        <div class="relative flex items-center justify-center h-full text-center">
-            <h1 class="relative text-4xl font-extrabold tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:-bottom-8 lg:-bottom-8 xl:-bottom-8">Blog</h1>
+    <!-- banner -->
+    <div class="overflow-hidden bg-doveGray-700">
+        <div class="relative bg-center bg-no-repeat bg-fixed bg-parallax bg-cover h-40 sm:h-40 md:h-64 lg:h-96 xl:h-[400px] transition-all ease-linear"
+             :style="`transform: translateY(${scrollPosition/12}px)`"
+        >
+            <div class="absolute inset-0 bg-doveGray-800 opacity-50"></div>
+            <div class="relative flex items-center justify-center h-full text-center">
+                <h1 class="relative text-4xl font-extrabold tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:-bottom-8 lg:-bottom-8 xl:-bottom-8">Blog</h1>
+            </div>
         </div>
     </div>
 
