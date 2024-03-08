@@ -65,8 +65,8 @@
                 </div>
 
                 <div>
-                    <h3 class="font-bold text-2xl my-7 sm:mt-0 md:mt-0 lg:mt-0 xl:mt-0 text-intellezyGreen">Let's Talks</h3>
-                    <h3 class="mt-0 font-bold text-2xl sm:text-xl mb-7 text-white">
+                    <h3 class="font-bold text-2xl mb-7 mt-0 text-intellezyGreen">Let's Talks</h3>
+                    <h3 class="mt-0 mb-7 font-bold text-2xl landscape:text-3xl sm:text-lg md:text-2xl text-white">
                         <a href="mailto:info@intellezy.com" target="_blank" class="hover:text-white/30 transition-all duration-200">info@intellezy.com</a><br/>
                         <a href="tel:+17812441113" target="_blank" class="-pb-1 border-b-[.5px] border-solid border-white/30 hover:border-white/10 hover:text-white/30 transition-all duration-200">781.244.1113</a>
                     </h3>

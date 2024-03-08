@@ -129,55 +129,54 @@
                     </svg>
                 </button>
 
-                <div x-show="mainMenu"
-                    x-transition:enter="transition ease-out duration-200"
-                    x-transition:enter-start="translate-x-full"
-                    x-transition:enter-end="translate-x-0"
-                    x-transition:leave="transition ease-in duration-200"
-                    x-transition:leave-start="translate-x-0"
-                    x-transition:leave-end="translate-x-full"
-                    class="overflow-hidden w-sreen h-screen"
-                    :class="{ 'translate-x-full': !mainMenu }"
-                >
-                    <ul class="space-y-4 uppercase mt-3">
-                        <li>
-                            <a @click="mainMenu = !mainMenu, solutions = !solutions" href="#" class="flex items-baseline py-2 px-4 text-white"">
-                                <span>Solutions</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a @click="mainMenu = !mainMenu, about = !about" href="#" class="flex items-baseline py-2 px-4 text-white"">
-                                <span>About</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a @click="mainMenu = !mainMenu, partners = !partners" href="#" class="flex items-baseline py-2 px-4 text-white">
-                                <span>Partners</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a @click="mainMenu = !mainMenu, resources = !resources" href="#" class="flex items-baseline py-2 px-4 text-white"">
-                                <span>resources</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li><a href="#" class="flex items-baseline py-2 px-4 text-white"">contact us</a></li>
-                    </ul>
+                <div class="w-full h-full overflow-hidden">
+                    <div x-show="mainMenu"
+                        x-transition:enter="transition ease-out duration-200"
+                        x-transition:enter-start="-translate-x-full"
+                        x-transition:enter-end="-translate-x-0"
+                        x-transition:leave="transition ease-in duration-200"
+                        x-transition:leave-start="-translate-x-0"
+                        x-transition:leave-end="-translate-x-full"
+                        class="overflow-hidden w-sreen h-screen"
+                        :class="{ '-translate-x-full': !mainMenu }"
+                    >
+                        <ul class="space-y-4 uppercase mt-3">
+                            <li>
+                                <a @click="mainMenu = !mainMenu, solutions = !solutions" href="#" class="flex items-baseline py-2 px-4 text-white"">
+                                    <span>Solutions</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a @click="mainMenu = !mainMenu, about = !about" href="#" class="flex items-baseline py-2 px-4 text-white"">
+                                    <span>About</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a @click="mainMenu = !mainMenu, partners = !partners" href="#" class="flex items-baseline py-2 px-4 text-white">
+                                    <span>Partners</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a @click="mainMenu = !mainMenu, resources = !resources" href="#" class="flex items-baseline py-2 px-4 text-white"">
+                                    <span>resources</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3 ml-2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a href="#" class="flex items-baseline py-2 px-4 text-white"">contact us</a></li>
+                        </ul>
+                    </div>
                 </div>
-
-
-
             </div>
         </div>
 
